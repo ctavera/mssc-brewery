@@ -1,6 +1,6 @@
 package da.springframework.msscbrewery.services;
 
-import da.springframework.msscbrewery.web.model.BeerDTO;
+import da.springframework.msscbrewery.web.model.BeerDto;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -9,8 +9,8 @@ import java.util.UUID;
 public class BeerServiceImpl implements BeerService {
 
     @Override
-    public BeerDTO getBeerById(UUID beerId) {
-        return BeerDTO.builder().id(UUID.randomUUID())
+    public BeerDto getBeerById(UUID beerId) {
+        return BeerDto.builder().id(UUID.randomUUID())
                 .beerName("Galaxy Cat")
                 .beerStyle("Pale Ale")
                 .build();

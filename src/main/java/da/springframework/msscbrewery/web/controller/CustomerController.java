@@ -1,7 +1,7 @@
 package da.springframework.msscbrewery.web.controller;
 
 import da.springframework.msscbrewery.services.CustomerService;
-import da.springframework.msscbrewery.web.model.CustomerDTO;
+import da.springframework.msscbrewery.web.model.CustomerDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,14 +15,14 @@ import java.util.UUID;
 @RestController
 public class CustomerController {
 
-    private final CustomerService customerService;
+    private CustomerService customerService;
 
     public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
     }
 
-    @GetMapping({"/{customerId}"})
-    public ResponseEntity<CustomerDTO> getCustomer(@PathVariable("customerId") UUID customerId) {
+    @GetMapping("/{customerId}")
+    public ResponseEntity<CustomerDto> getCustomer(@PathVariable("customerId") UUID customerId) {
 
         return new ResponseEntity<>(customerService.getCustomerById(customerId), HttpStatus.OK);
     }

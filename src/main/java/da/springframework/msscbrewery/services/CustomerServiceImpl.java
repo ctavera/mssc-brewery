@@ -1,6 +1,6 @@
 package da.springframework.msscbrewery.services;
 
-import da.springframework.msscbrewery.web.model.CustomerDTO;
+import da.springframework.msscbrewery.web.model.CustomerDto;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -8,10 +8,10 @@ import java.util.UUID;
 @Service
 public class CustomerServiceImpl implements CustomerService {
     @Override
-    public CustomerDTO getCustomerById(UUID customerId) {
-        return CustomerDTO.builder()
+    public CustomerDto getCustomerById(UUID customerId) {
+        return CustomerDto.builder()
                 .id(UUID.randomUUID())
-                .name("Customer 1")
+                .name("Joe Buck")
                 .build();
     }
 }

@@ -1,9 +1,9 @@
 package da.springframework.msscbrewery.services;
 
-import da.springframework.msscbrewery.web.model.BeerDTO;
+import da.springframework.msscbrewery.web.model.BeerDto;
 
 import java.util.UUID;
 
 public interface BeerService {
-    BeerDTO getBeerById(UUID beerId);
+    BeerDto getBeerById(UUID beerId);
 }
