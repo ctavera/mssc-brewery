@@ -26,7 +26,8 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public void updateCustomer(UUID customerId, CustomerDto customerDto) {
-        //todo impl - would add a real impl to save beer
+        //todo impl
+        log.debug("Updating...");
     }
 
     @Override
