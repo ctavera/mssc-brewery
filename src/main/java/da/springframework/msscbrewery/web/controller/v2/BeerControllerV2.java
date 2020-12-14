@@ -60,7 +60,7 @@ public class BeerControllerV2 {
     }
 
     @ExceptionHandler(ConstraintViolationException.class)
-    public ResponseEntity<List> validateErrorHandler(ConstraintViolationException e) {
+    public ResponseEntity<List> validationErrorHandler(ConstraintViolationException e) {
         List<String> errors = new ArrayList<>(e.getConstraintViolations().size());
 
         e.getConstraintViolations().forEach(constraintViolation -> {
