@@ -6,10 +6,12 @@ C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewer
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\web\model\CustomerDto.java
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\services\v2\BeerServiceV2Impl.java
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\web\controller\BeerController.java
+C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\web\mappers\BeerMapper.java
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\services\CustomerServiceImpl.java
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\services\BeerService.java
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\web\controller\v2\BeerControllerV2.java
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\web\model\v2\BeerStyleEnum.java
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\MsscBreweryApplication.java
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\services\BeerServiceImpl.java
+C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\domain\Beer.java
 C:\Developer\Workspaces\mssc-brewery\src\main\java\da\springframework\msscbrewery\web\model\v2\BeerDtoV2.java
