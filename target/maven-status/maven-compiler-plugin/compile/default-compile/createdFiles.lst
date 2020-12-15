@@ -23,4 +23,5 @@ da\springframework\msscbrewery\web\controller\MvcExceptionHandler.class
 da\springframework\msscbrewery\domain\Beer.class
 da\springframework\msscbrewery\web\mappers\CustomerMapper.class
 da\springframework\msscbrewery\web\controller\v2\BeerControllerV2.class
+da\springframework\msscbrewery\web\mappers\DateMapper.class
 da\springframework\msscbrewery\web\controller\CustomerController.class
